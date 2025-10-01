@@ -3,7 +3,7 @@
   "id": "givemerecipes",
   "version": "${version}",
   "name": "GiveMeRecipes",
-  "description": "Automatically unlocks all crafting recipes in the recipe book. ",
+  "description": "Automatically unlocks all crafting recipes in the recipe book.",
   "authors": [],
   "contact": {},
   "license": "MIT",
