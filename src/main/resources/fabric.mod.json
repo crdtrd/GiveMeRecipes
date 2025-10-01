@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "givemerecipes",
+  "version": "${version}",
+  "name": "GiveMeRecipes",
+  "description": "Automatically unlocks all crafting recipes in the recipe book. ",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/givemerecipes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.drtdrc.givemerecipes.GiveMeRecipes"
+    ]
+  },
+  "mixins": [
+    "givemerecipes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
