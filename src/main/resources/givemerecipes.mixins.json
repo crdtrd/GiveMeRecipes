@@ -4,6 +4,7 @@
   "package": "com.drtdrc.givemerecipes.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "ServerRecipeBookMixin"
   ],
   "injectors": {
     "defaultRequire": 1
